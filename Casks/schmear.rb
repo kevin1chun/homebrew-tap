@@ -8,7 +8,7 @@ cask "schmear" do
   homepage "https://github.com/kevin1chun/schmear"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on formula: "kevin1chun/tap/schmear"
 
   app "Schmear.app"
