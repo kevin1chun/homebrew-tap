@@ -8,7 +8,7 @@ class Schmear < Formula
   depends_on "node"
 
   def install
-    system "npm", "install", *std_npm_args, "--omit=optional"
+    system "npm", "install", *std_npm_args
     bin.install_symlink libexec.glob("bin/*")
   end
 
