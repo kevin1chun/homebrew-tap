@@ -12,6 +12,13 @@ class Schmear < Formula
     bin.install_symlink libexec.glob("bin/*")
   end
 
+  def caveats
+    <<~EOS
+      Run `schmear init` to connect your agents and subscriptions.
+      After `brew upgrade`, run `schmear init --yes` and restart your agents.
+    EOS
+  end
+
   test do
     assert_match version.to_s, shell_output("#{bin}/schmear --version")
   end

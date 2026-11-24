@@ -8,15 +8,14 @@ cask "schmear" do
   homepage "https://github.com/kevin1chun/schmear"
 
   depends_on arch: :arm64
-  depends_on macos: :sonoma
   depends_on formula: "kevin1chun/tap/schmear"
+  depends_on macos: :sonoma
 
   app "Schmear.app"
 
   uninstall quit: "io.github.kevin1chun.schmear"
 
   caveats <<~EOS
-    Run `schmear init` to connect your agents and subscriptions.
     To uninstall, run `schmear uninstall` first, then:
       brew uninstall --cask schmear && brew uninstall schmear
   EOS
