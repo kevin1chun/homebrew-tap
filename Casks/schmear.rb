@@ -1,6 +1,6 @@
 cask "schmear" do
-  version "0.5.1"
-  sha256 "660daa9afd5c0fb2316c8ab90b008d12b6f4cc42ded544bc9a2f8f88092c9ad5"
+  version "0.5.3"
+  sha256 "ac158b1a09fcffbe51ff8965dc106b42c316f4cf6d54eb0d1918f06e33564186"
 
   url "https://github.com/kevin1chun/schmear/releases/download/v#{version}/Schmear.zip"
   name "Schmear"
