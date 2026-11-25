@@ -1,8 +1,8 @@
 class Schmear < Formula
   desc "Spread delegated agent tasks across your AI subscriptions"
   homepage "https://github.com/kevin1chun/schmear"
-  url "https://registry.npmjs.org/schmear/-/schmear-0.5.3.tgz"
-  sha256 "920adb1a8dce09b11dbfe1bd05eb1d3c251f79d7f9db9f106e1eb6cb99eaeb40"
+  url "https://registry.npmjs.org/schmear/-/schmear-0.5.4.tgz"
+  sha256 "a82601094994046a3db8be02707ff9f5636bb43fdd5a66675ad5ec75042f373b"
   license "MIT"
 
   depends_on "node"
